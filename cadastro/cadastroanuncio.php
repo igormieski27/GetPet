@@ -5,7 +5,7 @@
  <meta charset="UTF-8">
 </head>
 <body>
-  <img src="Banners/header.jpg"> \
+  <img src="Banners/header.jpg"> \ 
   <nav id="menu">
     <font face="Bakersfield">
     <nav id="nav-1">
