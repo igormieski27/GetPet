@@ -1,0 +1,263 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+nav {
+  margin-top: 0px;
+  padding: 24px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#nav-1 {
+  background: #000000;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  background: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hoverzoom {
+    float: left;
+    position: relative;
+    left: 30px;
+    overflow: hidden;
+}
+.hoverzoom img {
+  background-color: #000000;
+  border: 3px solid #dbdbdb;
+-webkit-transition: transform .8s cubic-bezier(.190, 1.000, .220, 1.000);
+-moz-transition: transform .8s cubic-bezier(.190, 1.000, .220, 1.000);
+ -ms-transition: transform .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -o-transition: transform .8s cubic-bezier(.190, 1.000, .220, 1.000);
+     transition: transform .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.retina:hover ~ img {
+-webkit-transform: scale(1.5);
+   -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+     -o-transform: scale(1.5);
+        transform: scale(1.5);
+}
+.retina{
+position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);    
+    text-align: center;
+    padding: 30px;
+    z-index: 15;
+ 
+    -webkit-transition: opacity .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: opacity .8s cubic-bezier(.190, 1.000, .220, 1.000);
+     -ms-transition: opacity .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -o-transition: opacity .8s cubic-bezier(.190, 1.000, .220, 1.000);
+         transition: opacity .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.retina:hover {
+    opacity: 1;
+}
+.hoverzoom .retina p {
+color: #fff;
+}
+.hoverzoom .retina a {
+display: block;
+width: 150px;
+background: #6fc5e9;
+border: 1px solid #59afd4;
+border-radius: 4px;
+color: #fff;
+text-decoration: none;
+text-align: center;
+padding: 10px 15px;
+margin: 16px auto 0;
+}
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  margin: 0px;
+}
+nav {
+  margin-top: 0px;
+  padding: 24px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#nav-1 {
+  background: #000000;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  background: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+	
+}
+.botao {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #757375), color-stop(1, #8a8a8a));
+	background:-moz-linear-gradient(top, #757375 5%, #8a8a8a 100%);
+	background:-webkit-linear-gradient(top, #757375 5%, #8a8a8a 100%);
+	background:-o-linear-gradient(top, #757375 5%, #8a8a8a 100%);
+	background:-ms-linear-gradient(top, #757375 5%, #8a8a8a 100%);
+	background:linear-gradient(to bottom, #757375 5%, #8a8a8a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#757375', endColorstr='#8a8a8a',GradientType=0);
+	background-color:#757375;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #FFFFFF;
+	display:inline-block;
+	cursor:pointer;
+	color:#faf7f7;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+
+}
+.botao{ 
+    border: none;
+    padding: 15px 32px;
+    
+    font-size: 16px;
+    background-color: #757375;
+}
+.botao:hover {
+    
+    transition-duration: 0.4s;
+    text-decoration: underline;
+}
+.margem{
+
+margin: 1px 4px 0 5px;
+padding: 3px;
+background-color: #000000;
+border: 1px solid #dbdbdb;
+}
+
+.titulo{
+  font-style: none;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Raleway;
+  }
+.descricao{
+    font-size: 15px;
+    font-family: "Raleway", Gadget, sans-serif;
+}
+
+.divisor {
+    position: relative;
+
+}
+.divisor .anunciod {
+    width: 100px;
+    background: #cccccc; /* cinza */
+    border: 10px solid #ffffff; /* borda branca em volta */
+    margin: 0 auto; /* centraliza com bordas automáticas nas laterais */
+    text-align: center; /* centraliza o texto */
+    padding: 12px 15px; /* respiro em volta do texto */
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    color: #666666; /* texto cinza escuro */ 
+    z-index: 2; /* na frente da linha */
+    position: relative; /* exigido pelo z-index */
+}
+.divisor:before {
+    position: absolute; /* posição relativa ao container */
+    top: 50%; /* posição vetical: bem na metade */
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #666666;
+    z-index: 1; /* atrás do box do mês */
+}
+.anunciod{
+  text-align: center;
+}
